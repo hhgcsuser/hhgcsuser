@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "1xwNJZ7N096e2Tet19apUv",
+    "name" : "TF_SFTP_Daily_Files",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "DXf66vfXjISUXL8-gt-28353129-2023-09-22T18:05:11.477Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Transfer Daily Travel & Demographic files from Informatica QA  server to MFT QA",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2023-10-27T19:12:02.701Z",
+  "objectRefs" : [ {
+    "id" : "9q3d7TusUbJlsDKXjdjEqn",
+    "name" : "MT_SFTP_Daily_Files_Demographic",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU00Z00000000001K"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "transfer daily demographic file from informatica QA server to MFT QA ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MetlifeFTP"
+  }, {
+    "id" : "5ctpGavPp0VbvyvjZIv4O0",
+    "name" : "MT_SFTP_Daily_Files_Travel",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU00Z00000000001J"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Transfers daily travel  files from Informatica QA to MFT QA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MetlifeFTP"
+  } ]
+}

@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "9q3d7TusUbJlsDKXjdjEqn",
+    "name" : "MT_SFTP_Daily_Files_Demographic",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU00Z00000000001K"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "transfer daily demographic file from informatica QA server to MFT QA ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-27T19:12:02.700Z",
+  "objectRefs" : [ {
+    "id" : "9qkthURml2OjLyGfzdd1SY",
+    "name" : "ustry1metu0237l.metnet.net",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU025000000000008"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "2kLDukcOduAbKNoPdxTYEA",
+    "name" : "KPMG_FlatFile_Target",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU00B00000000000R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "5YSzVzuVdd4d1r5p0i6CMC",
+    "name" : "m_SFTP_Daily_Files_Demographic",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU01700000000001T"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Transfers Daily Demographic File from Informatica QA Server to MFT QA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MetlifeFTP"
+  }, {
+    "id" : "izpH58qXV6zicHXCCyQcYn",
+    "name" : "KPMG_File_Processor_Demogr_MFT_QA",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU00B00000000000Q"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "transfer demographic file only",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

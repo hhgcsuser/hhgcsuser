@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "7XofpjXO2EMhr4zSe0ln4K",
+    "name" : "SP_Bug",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "To test stored procedure",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-01-02T17:56:53.883Z",
+  "objectRefs" : [ ]
+}

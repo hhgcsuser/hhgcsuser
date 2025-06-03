@@ -1,0 +1,280 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "M_Box_delete_repro",
+    "links" : [
+      {
+        "link" : "FF -> Box"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-05-13T19:26:16.611Z",
+        "name" : "FF",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "File Reader Truncate String Null",
+            "value" : "NO"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "File_or_Folder_ID"
+            },
+            "name" : "File_or_Folder_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "File_or_Folder_Path"
+            },
+            "name" : "File_or_Folder_Path",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@28Bdr7hEqcSgc9fLR2tSg0",
+          "connectionName" : "HH_FLAT_local",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "delete.csv",
+            "label" : "delete.csv",
+            "objectName" : "delete.csv",
+            "path" : "delete.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "File_or_Folder_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "File_or_Folder_ID",
+                "nativeName" : "File_or_Folder_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "delete.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "File_or_Folder_Path",
+                "fieldType" : "CONNECTOR",
+                "label" : "File_or_Folder_Path",
+                "nativeName" : "File_or_Folder_Path",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "delete.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-05-13T19:26:16.611Z",
+        "name" : "Box",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "MANUAL",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "File_or_Folder_ID"
+            },
+            "name" : "File_or_Folder_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "File_or_Folder_Path"
+            },
+            "name" : "File_or_Folder_Path",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@6NEutcgoOO6ljl9zr84zUz",
+          "connectionName" : "HH_Box",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "Delete",
+            "label" : "Delete",
+            "objectName" : "Delete",
+            "objectType" : "DefaultObject",
+            "path" : "Delete",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "File_or_Folder_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "File_or_Folder_ID",
+                "nativeName" : "File_or_Folder_ID",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Delete"
+                  }
+                ]
+              },
+              {
+                "name" : "File_or_Folder_Path",
+                "fieldType" : "CONNECTOR",
+                "label" : "File_or_Folder_Path",
+                "nativeName" : "File_or_Folder_Path",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Delete"
+                  }
+                ]
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Delete"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        },
+        "manualMappings" : {
+          "mappingList" : [
+            {
+              "fromFieldName" : "File_or_Folder_Path",
+              "toField" : {
+                "name" : "File_or_Folder_Path"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "File_or_Folder_ID",
+              "toField" : {
+                "name" : "File_or_Folder_ID"
+              },
+              "fromFieldNames" : null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2025-06-03 10:08:49 PDT"
+}

@@ -1,0 +1,30 @@
+{
+  "objectInfo" : {
+    "id" : "0OTVJLDomhahufzVNv4eyh",
+    "name" : "m_StagingDB_nCino_Loan_Upsert",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU017000000000094"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapping is to load Booked and In-Progress Loan Data from StagingDB to nCino\nSource : LLC_BI__Loan__c  (staging DB)\nTarget: LLC_BI__Loan__c  (nCino)\nCreated On: 01-10-2020\nCreated By: D80504\nCreated By: D80504\nLast Modified on:\nLast Modified By:",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2025-06-10T22:05:22.397Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
+}

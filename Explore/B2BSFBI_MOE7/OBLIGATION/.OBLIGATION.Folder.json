@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "bZLpyqcAS4tcrovepGMlcV",
+    "name" : "OBLIGATION",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Loan,Legal Entities, Pricing Schedule, Repayment Schedule and Re-amortization",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2025-06-10T22:05:22.396Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}

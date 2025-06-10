@@ -23,8 +23,28 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-06-10T22:05:22.397Z",
-  "objectRefs" : [ ],
+  "updateTime" : "2025-06-10T22:14:14.495Z",
+  "objectRefs" : [ {
+    "id" : "28Bdr7hEqcSgc9fLR2tSg0",
+    "name" : "HH_FLAT_local",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CHU00B00000000003H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ],
   "readableFileExtension" : "json",
   "readableFilePresent" : true
 }
